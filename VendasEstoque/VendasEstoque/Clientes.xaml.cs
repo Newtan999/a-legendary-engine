@@ -16,5 +16,18 @@ namespace VendasEstoque
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            string pressed = button.Text;
+
+            if(button.Text == "Cadastrar cliente")
+            {
+                Navigation.PushAsync(new CadastraCliente());
+            }
+            
+
+        }
     }
 }
