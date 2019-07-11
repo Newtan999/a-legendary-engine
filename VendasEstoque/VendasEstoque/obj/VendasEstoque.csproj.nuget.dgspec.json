@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {}
+    "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
+    "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
+        "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
         "projectName": "VendasEstoque",
-        "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
+        "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
         "packagesPath": "C:\\Users\\josen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\obj\\",
+        "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Microsoft\\Xamarin\\NuGet\\",

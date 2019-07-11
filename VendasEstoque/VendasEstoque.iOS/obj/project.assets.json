@@ -1011,11 +1011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.iOS\\VendasEstoque.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.iOS\\VendasEstoque.iOS.csproj",
       "projectName": "VendasEstoque.iOS",
-      "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.iOS\\VendasEstoque.iOS.csproj",
+      "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.iOS\\VendasEstoque.iOS.csproj",
       "packagesPath": "C:\\Users\\josen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.iOS\\obj\\",
+      "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1036,8 +1036,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
-              "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj"
+            "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
+              "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj"
             }
           }
         }

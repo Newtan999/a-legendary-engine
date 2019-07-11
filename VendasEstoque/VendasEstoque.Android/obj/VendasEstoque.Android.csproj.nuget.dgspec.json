@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj": {}
+    "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj": {
+    "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj",
+        "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj",
         "projectName": "VendasEstoque.Android",
-        "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj",
+        "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.Android\\VendasEstoque.Android.csproj",
         "packagesPath": "C:\\Users\\josen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque.Android\\obj\\",
+        "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
-                "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj"
+              "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
+                "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
+    "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
+        "projectUniqueName": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
         "projectName": "VendasEstoque",
-        "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
+        "projectPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\VendasEstoque.csproj",
         "packagesPath": "C:\\Users\\josen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\VendasEstoque\\VendasEstoque\\VendasEstoque\\obj\\",
+        "outputPath": "C:\\Users\\josen\\Documents\\GitHub\\Teste\\a-legendary-engine\\VendasEstoque\\VendasEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Microsoft\\Xamarin\\NuGet\\",
