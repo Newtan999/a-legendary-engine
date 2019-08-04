@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\VendasEstoque"
+    "\\VendasEstoque",
+    "\\VendasEstoque\\VendasEstoque"
   ],
-  "SelectedNode": "\\VendasEstoque.sln",
   "PreviewInSolutionExplorer": false
 }
