@@ -4,14 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="VendasEstoque.Clientes"
-             BackgroundColor="Yellow">
+             x:Class="VendasEstoque.Clientes">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cadastrar"/>
+        <ToolbarItem Text="Pesquisar"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Button Text="Cadastrar cliente" HorizontalOptions="StartAndExpand" Clicked="Button_Clicked"/>
-                <Button Text="Buscar" HorizontalOptions="End"/>
-            </StackLayout>
-        </StackLayout>
+        <ListView x:Name="List" ItemAppearing="ItemAppearing"/>
     </ContentPage.Content>
 </ContentPage>

@@ -12,10 +12,6 @@ namespace VendasEstoque
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CadastraCliente : ContentPage
     {
-        public CadastraCliente()
-        {
-            InitializeComponent();
-        }
 
         private void Button_Clicked(object sender, EventArgs e)
         {

@@ -6,28 +6,28 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Collections;
 
 namespace VendasEstoque
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Clientes : ContentPage
     {
+        private ViewModel _viewModel = new ViewModel();
         public Clientes()
         {
             InitializeComponent();
+            this.List.ItemsSource = this._viewModel.Items;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        protected void ItemAppearing(object sender, ItemVisibilityEventArgs e)
         {
-            Button button = (Button)sender;
-            string pressed = button.Text;
+            var items = this.List.ItemsSource as IList;
 
-            if(button.Text == "Cadastrar cliente")
+            if (items != null && e.Item == items[items.Count - 1])
             {
-                Navigation.PushAsync(new CadastraCliente());
+                this._viewModel.Load();
             }
-            
-
-        }
     }
+        }
 }

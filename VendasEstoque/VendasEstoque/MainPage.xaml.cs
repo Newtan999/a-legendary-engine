@@ -22,5 +22,25 @@ namespace VendasEstoque
         {
             Navigation.PushAsync(new Clientes());
         }
+
+        private void BtnProdutos_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVendas_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnEstoque_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnRelatório_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

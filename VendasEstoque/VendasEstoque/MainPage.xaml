@@ -9,7 +9,11 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Button Text="Clientes" Clicked="Button_Clicked"/>
+        <Button Text="Clientes" x:Name="btnClientes" Clicked="Button_Clicked" CornerRadius="5" Margin="5" BackgroundColor="GhostWhite"/>
+        <Button x:Name="btnProdutos" Text="Produtos" Clicked="BtnProdutos_Clicked" CornerRadius="10" Margin="5" BackgroundColor="GhostWhite"/>
+        <Button x:Name="btnVendas" Text="Vendas" Clicked="BtnVendas_Clicked" CornerRadius="10" Margin="5"  BackgroundColor="GhostWhite"/>
+        <Button x:Name="btnEstoque" Text="Estoque" Clicked="BtnEstoque_Clicked" CornerRadius="10" Margin="5" BackgroundColor="GhostWhite"/>
+        <Button x:Name="btn" Text="Relatório" Clicked="BtnRelatório_Clicked" CornerRadius="10" Margin="5" BackgroundColor="GhostWhite"/>
     </StackLayout>
 
 </ContentPage>
