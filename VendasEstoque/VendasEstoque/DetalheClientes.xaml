@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="Black"
+             x:Class="VendasEstoque.DetalheClientes">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="110"/> <!--Data-->
+            <ColumnDefinition Width="110"/><!--Valor-->
+            <ColumnDefinition Width="200"/> <!--Descrição-->
+            <ColumnDefinition Width="200"/> <!--Status-->
+            <ColumnDefinition Width="1000"/>
+        </Grid.ColumnDefinitions>
+        <Label Text="Cliente 02" Grid.RowSpan="2" Grid.Column="0" TextColor="White" FontSize="Title"/>
+        <Label Text="Data" Grid.Row="2" Grid.Column="0" FontSize="Large" BackgroundColor="White"/>
+        <Label Text="Valor" Grid.Row="2" Grid.Column="1" FontSize="Large" BackgroundColor="White"/>
+        <Label Text="Descrição" Grid.Row="2" Grid.Column="2" FontSize="Large" BackgroundColor="White"/>
+        <Label Text="Status" Grid.Row="2" Grid.Column="3" FontSize="Large" BackgroundColor="White"/>
+                                     <!-- Data -->
+        <Label Text="..." Grid.Row="3" Grid.Column="0" BackgroundColor="White"/> 
+        <Label Text="..." Grid.Row="4" Grid.Column="0" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="5" Grid.Column="0" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="6" Grid.Column="0" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="7" Grid.Column="0" BackgroundColor="White"/>
+                                    <!-- Valor -->
+        <Label Text="..." Grid.Row="3" Grid.Column="1" BackgroundColor="White"/> 
+        <Label Text="..." Grid.Row="4" Grid.Column="1" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="5" Grid.Column="1" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="6" Grid.Column="1" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="7" Grid.Column="1" BackgroundColor="White"/>
+                                    <!-- Descrição -->
+        <Label Text="..." Grid.Row="3" Grid.Column="2" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="4" Grid.Column="2" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="5" Grid.Column="2" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="6" Grid.Column="2" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="7" Grid.Column="2" BackgroundColor="White"/>
+                                    <!-- Status -->
+        <Label Text="..." Grid.Row="3" Grid.Column="3" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="4" Grid.Column="3" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="5" Grid.Column="3" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="6" Grid.Column="3" BackgroundColor="White"/>
+        <Label Text="..." Grid.Row="7" Grid.Column="3" BackgroundColor="White"/>
+                                    <!-- Total -->
+        <Label Text="Total a receber: R$ " Grid.Row="8" FontSize="Large" Grid.ColumnSpan="3" BackgroundColor="White"/>
+                                    <!-- Botão -->
+        <Button x:Name="salvarDetalhe" Text="Salvar" Grid.Row="8" FontSize="Large" Grid.Column="3" BackgroundColor="Accent" FontAttributes="Italic"
+                Clicked="SalvarDetalhe_Clicked"/>
+    </Grid>
+        
+    
+</ContentPage>

@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Collections;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using System.Collections;
 
 namespace VendasEstoque
 {
@@ -28,6 +23,22 @@ namespace VendasEstoque
             {
                 this._viewModel.Load();
             }
-    }
         }
+
+        private void List_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Navigation.PushAsync(new DetalheClientes());
+        }
+
+        private void ToolbarBusca_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToolbarCadastra_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CadastrarCliente());
+
+        }
+    }
 }

@@ -14,6 +14,7 @@
         <Button x:Name="btnVendas" Text="Vendas" Clicked="BtnVendas_Clicked" CornerRadius="10" Margin="5"  BackgroundColor="GhostWhite"/>
         <Button x:Name="btnEstoque" Text="Estoque" Clicked="BtnEstoque_Clicked" CornerRadius="10" Margin="5" BackgroundColor="GhostWhite"/>
         <Button x:Name="btn" Text="Relatório" Clicked="BtnRelatório_Clicked" CornerRadius="10" Margin="5" BackgroundColor="GhostWhite"/>
+        <Button Text="Teste" BackgroundColor="White"/>
     </StackLayout>
 
 </ContentPage>

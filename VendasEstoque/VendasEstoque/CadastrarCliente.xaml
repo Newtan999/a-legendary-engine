@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="WhiteSmoke"
+             x:Class="VendasEstoque.CadastrarCliente">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <!-- 15 rows -->
+                <RowDefinition Height="*"/> <!-- 1 -->
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/> <!-- 5 -->
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/> <!-- 10 -->
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/> <!-- 15 -->
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <!-- 03 columns -->
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Novo cadastro" Grid.Column="1" Grid.Row="0" FontSize="Title" FontAttributes="Bold"/>
+                                         <!-- Dados -->
+            <Label Text="Dados" Grid.Column="0" Grid.Row="1" FontSize="Large" FontAttributes="Bold"/>
+            <Label Text="Nome:" Grid.Row="2" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="2" CornerRadius="10">
+                <Entry x:Name="entNome" Keyboard="Default" TextColor="Black"/>
+            </Frame>
+            <Label Text="CPF:" Grid.Column="0" Grid.Row="3" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="3" CornerRadius="10">
+                <Entry x:Name="entCPF" Keyboard="Numeric" TextColor="Black"/>
+            </Frame>
+                                        <!-- Contato -->
+            <Label Text="Contato" Grid.Column="0" Grid.Row="4" FontSize="Large" FontAttributes="Bold"/>
+            <Label Text="Telefone:" Grid.Column="0" Grid.Row="5" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="5" CornerRadius="10">
+                <Entry x:Name="entTel" Keyboard="Numeric"/>
+            </Frame>
+            <Label Text="Celular:" Grid.Column="0" Grid.Row="7" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="7" BorderColor="Black" HasShadow="True" CornerRadius="10">
+                <Entry x:Name="entCel" Keyboard="Numeric"/>
+            </Frame> 
+                                        <!-- Localização -->
+            <Label Text="Localização" Grid.Column="0" Grid.Row="8" FontSize="Large" FontAttributes="Bold"/>
+            <Label Text="Endereço:" Grid.Column="0" Grid.Row="9" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="9" CornerRadius="10">
+                <Entry x:Name="entEnde" Keyboard="Default"/>
+            </Frame>
+            <Label Text="Número:" Grid.Column="0" Grid.Row="10" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="10" CornerRadius="10" BorderColor="Black" HasShadow="True">
+                <Entry x:Name="entNum" Keyboard="Numeric"/>
+            </Frame>
+            <Label Text="Bairro:" Grid.Column="0" Grid.Row="11" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="11">
+                <Entry x:Name="entBairro" />
+            </Frame>
+            <Label Text="CEP:" Grid.Column="0" Grid.Row="12" FontSize="Medium"/>
+            <Frame Grid.Column="1" Grid.Row="12" CornerRadius="10" HorizontalOptions="FillAndExpand">
+                <Entry x:Name="entCep" Keyboard="Numeric"/>
+            </Frame>
+            <Button x:Name="btnSalvarDB" Text="Salvar Cadastro" Grid.Row="14" Grid.Column="1" Clicked="BtnSalvarDB_Clicked" BackgroundColor="LightYellow" CornerRadius="10" BorderColor="Gray"/>
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

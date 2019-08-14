@@ -6,10 +6,10 @@
              mc:Ignorable="d"
              x:Class="VendasEstoque.Clientes">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Cadastrar"/>
-        <ToolbarItem Text="Pesquisar"/>
+        <ToolbarItem Text="Cadastrar" x:Name="toolbarCadastra" Clicked="ToolbarCadastra_Clicked"/>
+        <ToolbarItem Text="Pesquisar" x:Name="toolbarBusca" Clicked="ToolbarBusca_Clicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <ListView x:Name="List" ItemAppearing="ItemAppearing"/>
+        <ListView x:Name="List" ItemAppearing="ItemAppearing" SelectionMode="Single" ItemTapped="List_ItemTapped"/>
     </ContentPage.Content>
 </ContentPage>

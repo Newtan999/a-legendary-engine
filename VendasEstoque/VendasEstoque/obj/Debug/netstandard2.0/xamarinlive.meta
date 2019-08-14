@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\App.xaml</FilePath>
+      <Hash>FC-FA-77-4B-7C-93-62-72-B9-68-D2-39-DE-C4-EF-09</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\CadastrarCliente.xaml</FilePath>
+      <Hash>20-42-4F-7E-1E-BB-E9-E6-4C-79-4B-6C-A4-15-25-5B</Hash>
+      <Properties>
+        <string>BackgroundColor</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\Clientes.xaml</FilePath>
+      <Hash>57-EB-58-43-A3-6C-51-F3-EA-F1-8F-F4-D7-C0-76-75</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\DetalheClientes.xaml</FilePath>
+      <Hash>6E-7E-AC-83-29-E0-0C-FD-6E-17-1B-7A-37-AB-D1-B2</Hash>
+      <Properties>
+        <string>BackgroundColor</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\Estoque.xaml</FilePath>
+      <Hash>D7-94-C9-E3-40-AF-B1-1B-9D-5B-32-6C-72-91-BF-D2</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\MainPage.xaml</FilePath>
+      <Hash>E1-E9-4F-AE-A3-45-71-BA-F7-7C-62-B3-3D-28-E1-87</Hash>
+      <Properties>
+        <string>BackgroundColor</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\Produtos.xaml</FilePath>
+      <Hash>38-B5-6F-C3-36-2C-B7-24-49-B6-E2-C6-89-A3-9E-8E</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\josen\Documents\GitHub\Teste\a-legendary-engine\VendasEstoque\VendasEstoque\Vendas.xaml</FilePath>
+      <Hash>CC-FA-6E-BF-DF-AA-81-64-F1-0E-D9-B3-4B-96-D6-30</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>
